@@ -1,0 +1,14 @@
+{
+  "students": [
+    { "id": 1, "firstname": "Саша", "lastname": "Барбарисович", "email": "Sasha.Barbaris@example.com", "grade": "10" },
+    { "id": 2, "firstname": "Амогус", "lastname": "Погерович", "email": "Amogus.Poger@example.com", "grade": "9" }
+  ],
+  "teachers": [
+    { "id": 1, "firstname": "Василь", "lastname": "Клопак", "email": "Vasil.Klopak@example.com"},
+    { "id": 2, "firstname": "Олена", "lastname": "Шпак", "email": "Olena.Chpak@example.com"}
+  ]
+  "subjects": [
+    { "id": 1, "name": "Програмування", "teacherId":1, "maxStudents":20, "schedule": "Вт 14:00" },
+    { "id": 2, "name": "Математика", "teacherId":2, "maxStudents":25, "schedule": "Ср 12:00"}
+  ]
+}
